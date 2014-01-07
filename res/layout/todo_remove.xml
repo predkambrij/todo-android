@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="30dip" >
+
+    <TextView
+        android:id="@+id/lbl_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dip"
+        android:layout_y="94dip"
+        android:text="Remove task"
+        android:textSize="16sp"
+        android:typeface="sans" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/txt_add_todo"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.05"
+        android:layout_x="128dip"
+        android:layout_y="192dip"
+        android:password="true"
+        android:textSize="250sp" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dip" >
+
+        <Button
+            android:id="@+id/button_todo_save_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_remove"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button_todo_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_cancel"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

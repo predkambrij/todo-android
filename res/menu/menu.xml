@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuUpdateFromServer"
+          android:title="Update from server" />
+    <item android:id="@+id/menuPushToServer"
+          android:title="Push to server" />
+    <item android:id="@+id/menuAddTodo"
+          android:title="Add Todo" />
+</menu>

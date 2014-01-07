@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center" >
+    
+    <TextView
+		android:id="@+id/updateLoading"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Updating from server" 
+		android:layout_marginBottom="45dip"/>
+	<ProgressBar
+		android:id="@+id/updateProgress"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/updateLoading"
+		style="@android:style/Widget.ProgressBar.Horizontal"
+		android:layout_marginBottom="45dip" />
+	
+	<Button
+		android:id="@+id/updateOK"
+		android:layout_width="80dip"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/updateProgress"
+		android:text="OK" />
+		
+	<Button
+		android:id="@+id/updateCancel"
+		android:layout_width="80dip"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/updateProgress"
+		android:layout_toRightOf="@+id/updateOK" 
+		android:text="Cancel"/>		
+     
+</RelativeLayout>

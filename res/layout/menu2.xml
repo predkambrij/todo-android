@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:padding="30dip"
+    android:orientation="vertical" >
+    
+	<Button
+    	android:id="@+id/button_show_todos"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="15sp"
+    	android:text="@string/shows_todos">
+    	</Button>
+    	
+	 <Button
+    	android:id="@+id/button_add_todo"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="15sp"
+    	android:text="@string/add_todo">
+	    
+	</Button>
+	
+	 <Button
+    	android:id="@+id/button_edit_todo"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="15sp"
+    	android:text="@string/edit_todo">
+	    
+	</Button>
+	
+	 <Button
+    	android:id="@+id/button_remove_todo"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="15sp"
+    	android:text="@string/remove_todo">
+	    
+	</Button>
+	
+	 <Button
+    	android:id="@+id/button_main_menu"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="15sp"
+    	android:text="@string/main_menu">
+	    
+	</Button>
+	
+</LinearLayout>

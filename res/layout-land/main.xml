@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+
+<TextView
+android:id="@+id/oznaka"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Ime:"/>
+<EditText
+android:id="@+id/vnos"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_toRightOf="@+id/oznaka1" 
+android:layout_alignTop="@+id/oznaka" />
+
+<TextView
+android:id="@+id/oznaka1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Priimek:"
+android:layout_below="@+id/vnos"/>
+<EditText
+android:id="@+id/vnos2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_toRightOf="@+id/oznaka1" 
+android:layout_alignTop="@+id/oznaka1" />
+
+
+
+
+<TextView
+android:id="@+id/oznaka2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="komentar:"
+android:layout_below="@+id/vnos2"/>
+<EditText
+android:id="@+id/vnos3"
+android:layout_width="fill_parent"
+android:layout_height="100dip"
+android:layout_below="@+id/oznaka2" />
+
+
+
+
+<Button
+android:id="@+id/OK"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/vnos3"
+android:layout_alignParentRight="true"
+android:layout_marginLeft="10dip"
+android:text="OK"/>
+<Button
+android:id="@+id/preklic"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_toLeftOf="@+id/OK"
+android:layout_alignTop="@+id/OK"
+android:text="Prekliči"/>
+</RelativeLayout>
+    
+-->
+
+
+
+
+<!--
+
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/insert" android:title="Insert"></item>
+</menu>
+-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical" >
+    <!--   android:background="@color/listcolor" -->
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_todos" />
+
+</LinearLayout>
+
+
+
+
+

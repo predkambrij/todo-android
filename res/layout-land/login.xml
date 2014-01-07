@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_gravity="center"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"	>
+	
+    
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dip"
+	    android:id="@+id/uporabnik"
+	    android:stretchColumns="1">
+
+	    <TableRow>        
+	        <TextView
+	            android:layout_column="1"
+				android:id="@+id/lbl_username"			
+				android:text="Uporabnisko ime:"
+				android:width="10dip"
+				android:padding="3dip" />
+		
+			<EditText
+				android:id="@+id/txt_username"
+	            android:padding="3dip" 
+	            android:layout_column="2"
+				android:width="128dip"	/>        
+	    </TableRow>
+	    
+	    <TableRow>        
+	        <TextView
+	            android:layout_column="1"
+				android:id="@+id/lbl_password"			
+				android:text="geslo: "
+				android:width="10dip"
+				android:padding="3dip" />
+		
+			<EditText
+				android:id="@+id/txt_password"
+				android:password="true" 
+				android:layout_column="2"
+				android:width="128dip"
+	            android:padding="3dip" 	/>        
+	    </TableRow>
+	    
+	</TableLayout>
+    
+    
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="312dip" android:layout_x="50dip" android:id="@+id/lbl_result"></TextView>
+	
+	<Button
+		android:id="@+id/btn_login"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/uporabnik"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="10dip"
+		android:text="Login"/>
+	
+	
+	<Button
+		android:id="@+id/btn_local_login"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/uporabnik"
+		android:layout_marginLeft="10dip"
+		android:layout_toRightOf="@+id/btn_login" 
+		android:text="Login Local"/>
+	
+	<Button
+		android:id="@+id/btn_about"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dip"
+		android:layout_alignParentBottom="true"
+		android:textSize="12sp"
+		android:text="About"/>
+		
+	<!-- android:layout_alignParentLeft="true"
+		 -->
+	</RelativeLayout>

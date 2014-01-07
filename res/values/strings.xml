@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="shows_todos">Shows todo</string>
+    <string name="add_todo">Add todo</string>
+    <string name="edit_todo">Edit todo</string>
+    <string name="remove_todo">Remove todo</string>
+    <string name="main_menu">Main menu</string>
+    
+    
+    <string name="todo_save_add">Save task</string>
+    <string name="todo_cancel">Cancel</string>
+    <string name="todo_remove">Remove task</string>
+        
+	<string name="app_name">Todo-sem</string>
+	<string name="no_todos">Currently there are no Todo items maintained</string>
+	<string name="menu_insert">Add Item</string>
+	<string name="menu_delete">Delete Todo</string>
+	<string name="todo_summary">Summary</string>
+	<string name="todo_description">Delete Todo</string>
+	<string name="todo_edit_summary">Summary</string>
+	<string name="todo_edit_description">Description</string>
+	<string name="todo_edit_confirm">Confirm</string>
+	<color name="listcolor">#FFE87C</color>
+	<color name="black">#000000</color>
+    
+	<string name="service_name">Reminder watcher</string>
+       
+</resources>

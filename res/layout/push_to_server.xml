@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center" >
+    
+    <TextView
+		android:id="@+id/pushLoading"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Pushing from server" 
+		android:layout_marginBottom="45dip"/>
+	<ProgressBar
+		android:id="@+id/pushProgress"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/pushLoading"
+		style="@android:style/Widget.ProgressBar.Horizontal"
+		android:layout_marginBottom="45dip" />
+	
+	<Button
+		android:id="@+id/pushOK"
+		android:layout_width="80dip"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/pushProgress"
+		android:text="OK" />
+		
+	<Button
+		android:id="@+id/pushCancel"
+		android:layout_width="80dip"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/pushProgress"
+		android:layout_toRightOf="@+id/pushOK" 
+		android:text="Cancel"/>		
+     
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="30dip" >
+
+    <TextView
+        android:id="@+id/todo_add_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dip"
+        android:layout_y="94dip"
+        android:text="Title"
+        android:textSize="16sp"
+        android:typeface="sans" >
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/title_add_todo_edittext"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        
+        android:password="true"
+        android:textSize="16sp" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/lbl_top"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_x="29dip"
+        android:layout_y="94dip"
+        android:text="Add a task"
+        android:textSize="16sp"
+        android:typeface="sans" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/txt_add_todo"
+        android:layout_width="258dp"
+        android:layout_height="198dp"
+        android:layout_weight="0.10"
+        android:layout_x="128dip"
+        android:layout_y="192dip"
+        android:password="true"
+        android:textSize="250sp" >
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="252dp"
+        android:layout_height="68dp"
+        android:layout_weight="0.14"
+        android:orientation="horizontal"
+        android:padding="30dip" >
+
+        <Button
+            android:id="@+id/button_todo_save_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_save_add"
+            android:textSize="15sp" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_todo_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_cancel"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

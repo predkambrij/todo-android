@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center" >
+    
+    <TextView
+		android:id="@+id/loginLoading"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Request is in progress..." 
+		android:layout_marginBottom="45dip"/>
+	<ProgressBar
+		android:id="@+id/loginUpdateProgress"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/loginLoading"
+		style="@android:style/Widget.ProgressBar.Horizontal"
+		android:layout_marginBottom="45dip" />
+	
+	<Button
+		android:id="@+id/loginOK"
+		android:layout_width="80dip"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/loginUpdateProgress"
+		android:text="OK" />
+		
+	<Button
+		android:id="@+id/loginCancel"
+		android:layout_width="80dip"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/updateProgress"
+		android:layout_toRightOf="@+id/loginOK" 
+		android:text="Cancel"/>		
+     
+</RelativeLayout>
